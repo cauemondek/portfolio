@@ -1,0 +1,36 @@
+{
+    "pt-br": {
+        "header": {
+            "home": "Início",
+            "about": "Sobre",
+            "techs": "Tecnologias",
+            "projects": "Projetos"
+        },
+        "initial": {
+            "hello": "Olá, me chamo",
+            "I am": "Sou",
+            "shortDesc": "Busco a melhor experiência para todos os usuários, seja bem-vindo ao meu site."
+        },
+        "about": {
+            "aboutMe": "Sobre mim",
+            "Desc": ""
+        }
+    },
+    "en": {
+        "header": {
+            "home": "Home",
+            "about": "About",
+            "techs": "Techs",
+            "projects": "Projects"
+        },
+        "initial": {
+            "hello": "Hi, my name is",
+            "I am": "I am",
+            "shortDesc": "I seek the best experience for all users, welcome to my website"
+        },
+        "about": {
+            "aboutMe": "About me",
+            "Desc": ""
+        }
+    }
+}

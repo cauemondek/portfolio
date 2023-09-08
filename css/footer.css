@@ -1,0 +1,19 @@
+footer {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+footer p {
+    color: #fff;
+    font-family: 'Montserrat';
+    opacity: 0.5;
+
+    cursor: default;
+    transition: 0.4s ease-in-out;
+}
+
+footer p:hover {
+    opacity: 1;
+}

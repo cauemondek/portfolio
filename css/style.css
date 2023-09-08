@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+    /* border: red 1px solid; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+:visited {
+    color: none;
+}
+body {
+    background-color: #030217;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background-color: #000;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #312150;
+    border-radius: 10px;
+}
+
+.line {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
