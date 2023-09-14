@@ -66,7 +66,6 @@
 }
 
 .boxTechsTools {
-    display: flex;
     flex-wrap: wrap;
 
     width: 1260px;
@@ -76,6 +75,15 @@
     row-gap: 20px;
     column-gap: 5px;
 }
+
+#techsMenu {
+    display: flex;
+}
+
+#toolsMenu {
+    display: none;
+}
+
 
 .skill {
     margin: 20px;
@@ -128,12 +136,20 @@
 }
 
 .containerSkillText h1{
-    min-width: 65px;
     font-size: 22px;
 
     font-family: 'Montserrat';
     color: #fff;
 }
+
+.techContainer h1 {
+    min-width: 65px;
+
+}
+.toolContainer h1 {
+    min-width: 94px;
+}
+
 .containerSkillText p {
     margin-top: 2%;
 
@@ -167,7 +183,7 @@
 
     justify-content: center;
     align-items: center;
-    display: flex; /* turn on or off the popup */
+    display: none; /* turn on or off the popup */
 
     z-index: 6;
 }
@@ -262,7 +278,7 @@
 
 .skillLevel{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
 
@@ -270,19 +286,19 @@
 
 .skillLevel h1 {
     font-family: 'Montserrat';
-    font-size: 50px;
+    font-size: 48px;
     color: #fff;
 }
 
 .skillLevel h2 {
     font-family: 'Montserrat';
-    font-size: 24px;
+    font-size: 26px;
     color: #663fb6;
     font-weight: bold;
 }
 
 /* barrier level */
-.levelContainer {
+/* .levelContainer {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
@@ -304,7 +320,7 @@
 }
 .level:nth-child(3){
     background-color: #FF0000;
-}
+} */
 
 .coursesContainer {
     width: 100%;
@@ -313,14 +329,15 @@
 .coursesContainer h1 {
     font-family: 'Montserrat';
     color: #663fb6;
-    font-size: 26px;
+    font-size: 28px;
 
     margin-bottom: 8px;
 }
-.coursesContainer p {
+.courses li {
     font-family: 'Montserrat';
     color: #fff;
-    font-size: 20px;
+    font-size: 21px;
+    list-style-type: circle ;
 }
 
 .courses {
