@@ -36,24 +36,24 @@ document.querySelectorAll('.tech').forEach((index, number) => {
             case 1:
                 pullTechData(number);
                 break;
-                case 2:
-                    pullTechData(number);
-                    break;
+            case 2:
+                pullTechData(number);
+                break;
             case 3:
                 pullTechData(number);
                 break;
-                case 4:
-                    pullTechData(number);
-                    break;
-                    case 5:
-                        pullTechData(number);
+            case 4:
+                pullTechData(number);
                 break;
-                case 6:
-                    pullTechData(number);
-                    break;
-                    default:
-                        break;
-                    };
+            case 5:
+                pullTechData(number);
+                break;
+            case 6:
+                pullTechData(number);
+                break;
+            default:
+                break;
+        };
                     
         for(let courseAdd = 0; courseAdd < courses[number].length; courseAdd++){
             const newCourse = document.createElement("li");
@@ -61,7 +61,7 @@ document.querySelectorAll('.tech').forEach((index, number) => {
             newCourse.innerHTML = courses[number][courseAdd];
     
             coursesPage.appendChild(newCourse);
-        }
+        };
     });
 });
 
@@ -85,7 +85,7 @@ function pullTechData(numberTech){
     };
 
     document.getElementById('levelType').innerHTML = techLanguageSwitch[numberTech];
-}
+};
 
 const techs = ["Javascript", "HTML", "CSS", "Java", "C++", "Node.js", "Dados"];
 const techsLogo = ["javascript.png", "html.png", "css.png", "java.png", "c++.png", "nodejs.png", "bancoDados.png"];
@@ -93,3 +93,4 @@ const techsLogo = ["javascript.png", "html.png", "css.png", "java.png", "c++.png
 const techsLevelPT = ["Avançado", "Avançado", "Avançado", "Intermediário", "Básico", "Básico", "Intermediário"];
 const techsLevelEN = ["Advanced", "Advanced", "Advanced", "Intermediate", "Beginner", "Beginner", "Intermediate"];
 const techsLevelLanguage = [techsLevelPT, techsLevelEN];
+

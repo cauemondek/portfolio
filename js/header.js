@@ -1,17 +1,20 @@
-let clickSwitch = 0;
+let clickSwitch;
+
 document.querySelector('.switch').addEventListener('click',()=>{
     document.getElementById('flagBall').classList.add("flagAnimation")
     setTimeout(() => {
-        document.getElementById('flagBall').classList.remove("flagAnimation")
+        document.getElementById('flagBall').classList.remove("flagAnimation");
     }, 1000);
-    if (clickSwitch == 0){
+    if (clickSwitch === 0){
         document.getElementById('ballSwitch').style.transform = 'translateX(32px)';
         document.getElementById('flagBall').src = "/imgs/flagsSwitch/bandeira-EN.jpg";
         clickSwitch++;
+        changeLanguage('en');
     } else {
         document.getElementById('ballSwitch').style.transform = 'translateX(0px)';
         document.getElementById('flagBall').src = "/imgs/flagsSwitch/bandeira-PT.png";
         clickSwitch--;
+        changeLanguage('ptBR');
     };
 });
 
@@ -35,7 +38,7 @@ optionsMenu.forEach((index, number)=>{
         } else if (number == 1){
             window.scrollTo(0,800);
         } else if (number == 2){
-            window.scrollTo(0,1200);
+            window.scrollTo(0,1300);
         };
     });
 

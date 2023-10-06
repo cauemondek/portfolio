@@ -1,36 +1,58 @@
 {
-    "pt-br": {
-        "header": {
+    "ptBR": {
             "home": "Início",
             "about": "Sobre",
-            "techs": "Tecnologias",
-            "projects": "Projetos"
-        },
-        "initial": {
+            "skills": "Habilidades",
+            "projects": "Projetos",
             "hello": "Olá, me chamo",
-            "I am": "Sou",
-            "shortDesc": "Busco a melhor experiência para todos os usuários, seja bem-vindo ao meu site."
-        },
-        "about": {
+            "Iam": "Sou",
+            "shortDesc": "Busco a melhor experiência para todos os usuários, seja bem-vindo ao meu site.",
             "aboutMe": "Sobre mim",
-            "Desc": ""
-        }
+            "aboutOne": "Cursando graduação de Ciência da Computação na Universidade Positivo UP!;",
+            "aboutTwo": "Tenho 19 anos, moro em Londrina - PR, sou Desenvolvedor Junior. Desde criança amante de tecnologias hardware e software e desde já apaixonado em 'codar';",
+            "aboutThree": "Sempre disposto a aprender novas maneiras de resolver problemas e adquirir novos conhecimentos da área, pretendo ganhar experiência rápido com dedicação e tempo de qualidade, observando pequenos detalhes;",
+            "aboutFour": "Foco em um planejamento estruturado e organizado, busco uma boa experiência para todos os usuários de minhas aplicações, atento na qualidade e precisão;",
+            "aboutFive": "Fui um dos cinco alunos destaques do curso 'Pensamento Computacional' da faculdade UniFil;",
+            "aboutSix": "Prático desenvolvimento Full-stack, Web e Back-end;",
+            "skillsMenu": "Habilidades",
+            "techs": "Tecnologias",
+            "tools": "Ferramentas",
+            "dataBase": "Dados",
+            "seeMore": "Ver mais",
+            "levelBasic": "Básico",
+            "levelInter": "Intermediário",
+            "levelAdvanced": "Avançado",
+            "courses": "Cursos:",
+            "certificates": "Certificados",
+            "projectTitle": "Projetos",
+            "copyright": "© Cauê Guise Mondek - Todos os direitos reservados,"
     },
     "en": {
-        "header": {
             "home": "Home",
             "about": "About",
-            "techs": "Techs",
-            "projects": "Projects"
-        },
-        "initial": {
+            "skills": "Skills",
+            "projects": "Projects",
             "hello": "Hi, my name is",
-            "I am": "I am",
-            "shortDesc": "I seek the best experience for all users, welcome to my website"
-        },
-        "about": {
+            "Iam": "I'm",
+            "shortDesc": "I seek the best experience for all users, welcome to my website.",
             "aboutMe": "About me",
-            "Desc": ""
-        }
+            "aboutOne": "I'm studying Computer Science at Positivo UP! University;",
+            "aboutTwo": "I'm 19 years old, I live in Londrina - PR, I'm a Junior Developer. Since I was a kid, I've loved hardware and software technologies and I've been passionate about 'coding';",
+            "aboutThree": "Always willing to learn new ways to solve problems and acquire new knowledge of the area, I intend to gain experience quickly with dedication and quality time, observing small details;",
+            "aboutFour": "I focus on structured and organized planning, seeking a good experience for all users of my applications, paying attention to quality and precision;",
+            "aboutFive": "I was one of the five outstanding students in the 'Pensamento Computacional' course at UniFil University;",
+            "aboutSix": "Practical Full-stack, Web and Back-end development;",
+            "skillsMenu": "Skills",
+            "techs": "Techs",
+            "tools": "Tools",
+            "dataBase": "Data",
+            "seeMore": "See more",
+            "levelBasic": "Basic",
+            "levelInter": "Intermediate",
+            "levelAdvanced": "Advanced",
+            "courses": "Courses:",
+            "certificates": "Certificates",
+            "projectTitle": "Projects",
+            "copyright": "© Cauê Guise Mondek - All rights reserved,"
     }
 }

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./css/initial.css">
     <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/techs.css">
+    <link rel="stylesheet" href="./css/projects.css">
     <link rel="stylesheet" href="./css/footer.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,14 +23,14 @@
     <header>
         <h1>Dev. Cauê();</h1>
         <div class="optionsMenuContainer">
-            <h2 class="optionsMenu">Início</h2>
-            <h2 class="optionsMenu">Sobre</h2>
-            <h2 class="optionsMenu">Habilidades</h2>
-            <h2 class="optionsMenu">Projetos</h2>
+            <h2 class="optionsMenu translation" data-key="home">Início</h2>
+            <h2 class="optionsMenu translation" data-key="about">Sobre</h2>
+            <h2 class="optionsMenu translation" data-key="skills">Habilidades</h2>
+            <h2 class="optionsMenu translation" data-key="projects">Projetos</h2>
         </div>
         <div class="switch">
             <div class="ball" id="ballSwitch">
-                <img class="ball" id="flagBall" src="./imgs/flagsSwitch/bandeira-PT.png" alt="Flag">
+                <img class="ball" id="flagBall" src="" alt="Flag">
             </div>
             <p>EN</p>
             <p>PT</p>
@@ -39,13 +40,13 @@
         <article class="initialPage">
             <div class="initialContainer">
                 <div class="iniTextContainer">
-                    <p>Olá, me chamo</p>
+                    <p class="translation" data-key="hello">Olá, me chamo</p>
                     <h1>Cauê Guise Mondek</h1>
                     <div class="typeContainer">
-                        <p>Sou</p>
+                        <p class="translation" data-key="Iam">Sou</p>
                         <p class="typeWriter" id="type" style="color: #663fb6;"></p>
                     </div>
-                    <p style="height: 45px;">Busco a melhor experiência para todos os usuários, seja bem-vindo ao meu site.</p>
+                    <p style="height: 45px;" class="translation" data-key="shortDesc">Busco a melhor experiência para todos os usuários, seja bem-vindo ao meu site.</p>
                     <div class="socialContainer">
                         <a href="https://www.linkedin.com/in/cauemondek/" target="_blank"><i class="iconSocial fa-brands fa-linkedin-in fa-lg" style="color: #ffffff;"></i></a>
                         <a href="https://github.com/cauemondek" target="_blank"><i class="iconSocial fa-brands fa-github fa-lg" style="color: #ffffff;"></i></a>
@@ -79,20 +80,20 @@
         </div>
 
         <article class="aboutPage">
-            <h1>Sobre mim</h1>  
+            <h1 class="translation" data-key="aboutMe">Sobre mim</h1>  
 
             <div class="boxText">
-                <p class="aboutWriter">Cursando graduação de Ciência da Computação na Universidade Positivo UP!;</p>
+                <p class="aboutWriter translation" data-key="aboutOne">Cursando graduação de Ciência da Computação na Universidade Positivo UP!;</p>
                 <br>
-                <p class="aboutWriter">Tenho 19 anos, moro em Londrina - PR, sou Desenvolvedor Junior. Desde criança amante de tecnologias hardware e software e desde já apaixonado em "codar";</p>
+                <p class="aboutWriter translation" data-key="aboutTwo">Tenho 19 anos, moro em Londrina - PR, sou Desenvolvedor Junior. Desde criança amante de tecnologias hardware e software e desde já apaixonado em 'codar';</p>
                 <br>
-                <p class="aboutWriter">Sempre disposto a aprender novas maneiras de resolver problemas e adquirir novos conhecimentos da área, pretendo ganhar experiência rápido com dedicação e tempo de qualidade, observando pequenos detalhes;</p>
+                <p class="aboutWriter translation" data-key="aboutThree">Sempre disposto a aprender novas maneiras de resolver problemas e adquirir novos conhecimentos da área, pretendo ganhar experiência rápido com dedicação e tempo de qualidade, observando pequenos detalhes;</p>
                 <br>
-                <p class="aboutWriter">Foco em um planejamento estruturado e organizado, busco uma boa experiência para todos os usuários de minhas aplicações, atento na qualidade e precisão;</p>
+                <p class="aboutWriter translation" data-key="aboutFour">Foco em um planejamento estruturado e organizado, busco uma boa experiência para todos os usuários de minhas aplicações, atento na qualidade e precisão;</p>
                 <br>
-                <p class="aboutWriter">Fui um dos cinco alunos destaques do curso "Pensamento Computacional" da faculdade UniFil;</p>
+                <p class="aboutWriter translation" data-key="aboutFive">Fui um dos cinco alunos destaques do curso 'Pensamento Computacional' da faculdade UniFil;</p>
                 <br>
-                <p class="aboutWriter">Prático desenvolvimento Full-stack, Web e Back-end;</p>
+                <p class="aboutWriter translation" data-key="aboutSix">Prático desenvolvimento Full-stack, Web e Back-end;</p>
             </div>
 
         </article>
@@ -102,14 +103,14 @@
                     <!-- <div class="line">
                         <hr style="opacity: 0.4; width: 95%; background-color: #312150; border: #312150 solid 1px;">
                     </div> -->
-                    <h1>Habilidades</h1>
+                    <h1 class="translation" data-key="skillsMenu">Habilidades</h1>
                     <div class="line">
                         <hr style="opacity: 0.4; width: 95%; background-color: #312150; border: #312150 solid 1px;">
                     </div>
                 </div>
                 <div class="optionsTechsContainer">
-                    <p class="optionTech ">Tecnologias</p>
-                    <p class="optionTech ">Ferramentas</p>
+                    <p class="optionTech translation" data-key="techs">Tecnologias</p>
+                    <p class="optionTech translation" data-key="tools">Ferramentas</p>
                 </div>
                 <div class="boxTechsTools" id="techsMenu">
                     <!-- <div class="line">
@@ -119,7 +120,7 @@
                             <img class="skillLogo" src="./imgs/skills/techs/javascript.png" alt="">
                             <div class="containerSkillText">
                                 <h1>Javascript</h1>
-                                <p>Ver mais</p>
+                                <p class="translation" data-key="seeMore">Ver mais</p>
                             </div>
                         </div>
                     </div>
@@ -128,7 +129,7 @@
                             <img class="skillLogo" src="./imgs/skills/techs/html.png"alt="">
                             <div class="containerSkillText">
                                 <h1>HTML</h1>
-                                <p>Ver mais</p>
+                                <p class="translation" data-key="seeMore">Ver mais</p>
                             </div>
                         </div>
                     </div>
@@ -137,7 +138,7 @@
                             <img class="skillLogo" src="./imgs/skills/techs/css.png" alt="">
                             <div class="containerSkillText">
                                 <h1>CSS</h1>
-                                <p>Ver mais</p>
+                                <p class="translation" data-key="seeMore">Ver mais</p>
                             </div>
                         </div>
                     </div>
@@ -146,7 +147,7 @@
                             <img class="skillLogo" src="./imgs/skills/techs/java.png" alt="">
                             <div class="containerSkillText">
                                 <h1>Java</h1>
-                                <p>Ver mais</p>
+                                <p class="translation" data-key="seeMore">Ver mais</p>
                             </div>
                         </div>
                     </div>
@@ -155,7 +156,7 @@
                             <img class="skillLogo" src="./imgs/skills/techs/c++.png" alt="">
                             <div class="containerSkillText">
                                 <h1>C++</h1>
-                                <p>Ver mais</p>
+                                <p class="translation" data-key="seeMore">Ver mais</p>
                             </div>
                         </div>
                     </div>
@@ -164,7 +165,7 @@
                             <img class="skillLogo" src="./imgs/skills/techs/nodejs.png" alt="">
                             <div class="containerSkillText">
                                 <h1>Node.js</h1>
-                                <p>Ver mais</p>
+                                <p class="translation" data-key="seeMore">Ver mais</p>
                             </div>
                         </div>
                     </div>
@@ -172,8 +173,8 @@
                         <div class="containerSkill techContainer">
                             <img class="skillLogo" src="./imgs/skills/techs/bancoDados.png" alt="">
                             <div class="containerSkillText">
-                                <h1>Dados</h1>
-                                <p>Ver mais</p>
+                                <h1 class="translation" data-key="dataBase">Dados</h1>
+                                <p class="translation" data-key="seeMore">Ver mais</p>
                             </div>
                         </div>
                     </div>
@@ -187,7 +188,7 @@
                             <img class="skillLogo" src="./imgs/skills/tools/git.png" alt="">
                             <div class="containerSkillText">
                                 <h1>Git</h1>
-                                <p>Avançado</p>
+                                <p class="translation" data-key="levelAdvanced">Avançado</p>
                             </div>
                         </div>
                     </div>
@@ -196,7 +197,7 @@
                             <img class="skillLogo" src="./imgs/skills/tools/netbeans.png"alt="">
                             <div class="containerSkillText">
                                 <h1>NetBeans</h1>
-                                <p>Intermediário</p>
+                                <p class="translation" data-key="levelInter">Intermediário</p>
                             </div>
                         </div>
                     </div>
@@ -205,7 +206,7 @@
                             <img class="skillLogo" src="./imgs/skills/tools/sqlserver.png" alt="">
                             <div class="containerSkillText">
                                 <h1>SQL Server</h1>
-                                <p>Intermediário</p>
+                                <p class="translation" data-key="levelInter">Intermediário</p>
                             </div>
                         </div>
                     </div>
@@ -214,7 +215,7 @@
                             <img class="skillLogo" src="./imgs/skills/tools/mysql.png" alt="">
                             <div class="containerSkillText">
                                 <h1>MySQL</h1>
-                                <p>Intermediário</p>
+                                <p class="translation" data-key="levelInter">Intermediário</p>
                             </div>
                         </div>
                     </div>
@@ -223,7 +224,7 @@
                             <img class="skillLogo" src="./imgs/skills/tools/arduino.png" alt="">
                             <div class="containerSkillText">
                                 <h1>Arduino</h1>
-                                <p>Básico</p>
+                                <p class="translation" data-key="levelBasic">Básico</p>
                             </div>
                         </div>
                     </div>
@@ -232,7 +233,7 @@
                             <img class="skillLogo" src="./imgs/skills/tools/eclipse.png" alt="">
                             <div class="containerSkillText">
                                 <h1>Eclipse</h1>
-                                <p>Avançado</p>
+                                <p class="translation" data-key="levelAdvanced">Avançado</p>
                             </div>
                         </div>
                     </div>
@@ -241,7 +242,7 @@
                             <img class="skillLogo" src="./imgs/skills/tools/vscode.png" alt="">
                             <div class="containerSkillText">
                                 <h1>VSCode</h1>
-                                <p>Avançado</p>
+                                <p class="translation" data-key="levelAdvanced">Avançado</p>
                             </div>
                         </div>
                     </div>
@@ -250,15 +251,23 @@
                             <img class="skillLogo" src="./imgs/skills/tools/photoshop.png" alt="">
                             <div class="containerSkillText">
                                 <h1>Photoshop</h1>
-                                <p>Intermediário</p>
+                                <p class="translation" data-key="levelInter">Intermediário</p>
                             </div>
                         </div>
                     </div>
                 </div>
-
+                <div class="line">
+                    <hr style="opacity: 0.4; width: 95%; background-color: #312150; border: #312150 solid 1px;">
+                </div>
             </div>
+            
         </article>
-
+        
+        <article class="projectsPage">
+            <h1 class="translation" data-key="projectTitle">Projetos</h1>
+    
+        </article>
+        
     </main>
     <div class="containerPopup">
         <div class="opacityEffect"></div>
@@ -278,23 +287,27 @@
             </div>
             <hr style="opacity: 0.6; width: 95%; background-color: #312150; border: #312150 solid 1px; margin: 20px 0;">
             <div class="coursesContainer">
-                <h1>Cursos:</h1>
+                <h1 class="translation" data-key="courses">Cursos:</h1>
                 <div class="courses">
                 </div>
             </div>
             <hr style="opacity: 0.6; width: 95%; background-color: #312150; border: #312150 solid 1px; margin-bottom: 20px;">
             <div class="containerCertificate">
-                <a href="" class="linkCertificate" ><h3>Certificados</h3><i class="fa-solid fa-arrow-right fa-sm" style="color: #ffef0f; margin-left: 6px;"></i></a>
+                <a href="" class="linkCertificate"><h3 class="translation" data-key="certificates">Certificados</h3><i class="fa-solid fa-arrow-right fa-sm" style="color: #ffef0f; margin-left: 6px;"></i></a>
             </div>
         </article>
     </div>
+
     <footer>
-        <p>&copy; Cauê Guise Mondek - Todos os direitos reservados, <span id="ano"></span></p>
+        <p class="translation" data-key="copyright">&copy; Cauê Guise Mondek - Todos os direitos reservados,</p>
+        <span id="ano"></span>
     </footer>
 
+    <script src="./js/app.js"></script>
     <script src="./js/header.js"></script>
     <script src="./js/initial.js"></script>
     <script src="./js/techs.js"></script>
-    <script src="./js/app.js"></script>
+    <script src="./js/translate.js"></script>
+
 </body>
 </html>
