@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cauê Mondek</title>
+
+    <script src="https://kit.fontawesome.com/dc49a974a4.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/initial.css">
+    <link rel="stylesheet" href="./css/certArea.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine&family=Inder&family=Manrope:wght@200;500&family=Montserrat:wght@200&family=Noto+Sans+JP:wght@200;400;500&family=Nunito&family=Poppins:wght@200;300;500;700;800&family=Roboto:wght@100;400&family=Sen:wght@700&family=Source+Code+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Dev. Cauê();</h1>
+        <div class="optionsMenuContainer">
+            <a href="index.html"><h2 style="font-size: 30px;">Back</h2></a>
+        </div>
+
+    </header>
+    <main>
+        <article class="certificatePage">
+            <div class="certificateContainer">
+                <embed class="pdfVisor" src="./pdf/certificates.pdf" type="application/pdf">
+            </div>
+
+
+            <ul class="figures">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </article>
+
+    </main>
+
+    <footer style="margin: 0;">
+        <p data-key="copyright">&copy; Cauê Guise Mondek - All rights reserved,</p>
+        <span id="ano"></span>
+    </footer>
+
+    <script>
+        const year = document.querySelector('#ano');
+        year.innerHTML = new Date().getFullYear();
+    </script>
+</body>
+</html>
