@@ -7,17 +7,19 @@ header {
     align-items: center;
 
     background: rgba(0, 0, 0, 0.12);
-    backdrop-filter: blur(2.5px);
-    -webkit-backdrop-filter: blur(2.5px);
+    backdrop-filter: blur(2.8px);
+    -webkit-backdrop-filter: blur(2.8px);
 
     position: fixed;
 
     z-index: 6;
+
+    user-select: none;
 }
 
 header h1 {
     font-size: 40px;
-    color: #663fb6;
+    color: #8354e0;
     cursor: default;
     font-family: 'Montserrat';
 }
@@ -27,7 +29,7 @@ header h2 {
     color: #fff;
     
     opacity: 0.9;
-    transition: 0.4s ease-in-out;
+    transition: 0.2s ease-in-out;
     cursor: pointer;
 }
 header h2::after {
@@ -84,7 +86,7 @@ header h2:hover {
     background-color: #969696;
     position: absolute;
     border-radius: 100%;
-    object-fit:cover;
+    object-fit: cover;
     transition: 1s;
 }
 

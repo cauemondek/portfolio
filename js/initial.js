@@ -1,6 +1,6 @@
 const webDev = ["W","e","b"," ","D","e","v","e","l","o","p","e","r"];
 const backDev = ["B","a","c","k","-","e","n","d"," ","D","e","v","e","l","o","p","e","r"];
-const fullDev = ["F","u","l","l","-","S","t","a","c","k"," ","D","e","v","e","l","o","p","e","r"];
+const fullDev = ["F","u","l","l","-","s","t","a","c","k"," ","D","e","v","e","l","o","p","e","r"];
 const words = [webDev, backDev, fullDev];
 
 const typing = document.getElementById('type');

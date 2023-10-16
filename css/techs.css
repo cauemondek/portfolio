@@ -13,7 +13,7 @@
     display: flex;
 }
 .titleTechContainer h1 {
-    color: #663fb6;
+    color: #764ccc;
     font-family: 'Montserrat';
 
     width: max-content;
@@ -37,6 +37,8 @@
     height: 40px;
     display: flex;
     justify-content: flex-end;
+
+    user-select: none;
 }
 
 .optionTech {
@@ -74,6 +76,8 @@
     gap: 10px;
     row-gap: 20px;
     column-gap: 5px;
+
+    user-select: none;
 }
 
 #techsMenu {
@@ -293,7 +297,7 @@
 .skillLevel h2 {
     font-family: 'Montserrat';
     font-size: 26px;
-    color: #663fb6;
+    color: #764ccc;
     font-weight: bold;
 }
 
@@ -328,7 +332,7 @@
 
 .coursesContainer h1 {
     font-family: 'Montserrat';
-    color: #663fb6;
+    color: #764ccc;
     font-size: 28px;
 
     margin-bottom: 8px;
@@ -351,6 +355,8 @@
     width: 100%;
     display: flex;
     justify-content: end;
+
+    user-select: none;
 }
 
 .containerCertificate h3 {

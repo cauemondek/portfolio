@@ -1,7 +1,7 @@
 let clickSwitch;
 
 document.querySelector('.switch').addEventListener('click',()=>{
-    document.getElementById('flagBall').classList.add("flagAnimation")
+    document.getElementById('flagBall').classList.add("flagAnimation");
     setTimeout(() => {
         document.getElementById('flagBall').classList.remove("flagAnimation");
     }, 1000);
@@ -24,22 +24,33 @@ optionsMenu.forEach((index, number)=>{
         document.addEventListener('scroll',()=>{
             if (window.scrollY <= 110){
                 pageOn(0);
-            } else if (300 <= window.scrollY && window.scrollY < 900) {
+            } else if (300 <= window.scrollY && window.scrollY < 900){
                 pageOn(1);
-            } else if (window.scrollY >= 900){
+            } else if (window.scrollY >= 900 && window.scrollY < 1600){
                 pageOn(2);
+            } else if (window.scrollY >= 1600){
+                pageOn(3);
             };
-            // console.log(scrollY)
         });
 
     index.addEventListener('click',()=>{
-        if (number == 0){
-            window.scrollTo(0,0);
-        } else if (number == 1){
-            window.scrollTo(0,800);
-        } else if (number == 2){
-            window.scrollTo(0,1300);
+        switch (number) {
+            case 0:
+                window.scrollTo(0,0);
+                break;
+            case 1:
+                window.scrollTo(0,800);
+                break;
+            case 2:
+                window.scrollTo(0,1300);
+                break;
+            case 3:
+                window.scrollTo(0,2000);
+                break;
+            default:
+                break;
         };
+
     });
 
 });
