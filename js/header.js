@@ -7,12 +7,12 @@ document.querySelector('.switch').addEventListener('click',()=>{
     }, 1000);
     if (clickSwitch === 0){
         document.getElementById('ballSwitch').style.transform = 'translateX(32px)';
-        document.getElementById('flagBall').src = "/imgs/flagsSwitch/bandeira-EN.jpg";
+        document.getElementById('flagBall').src = "./imgs/flagsSwitch/bandeira-EN.jpg";
         clickSwitch++;
         changeLanguage('en');
     } else {
         document.getElementById('ballSwitch').style.transform = 'translateX(0px)';
-        document.getElementById('flagBall').src = "/imgs/flagsSwitch/bandeira-PT.png";
+        document.getElementById('flagBall').src = "./imgs/flagsSwitch/bandeira-PT.png";
         clickSwitch--;
         changeLanguage('ptBR');
     };

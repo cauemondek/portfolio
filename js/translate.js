@@ -4,11 +4,11 @@ addEventListener('DOMContentLoaded', () => {
         document.getElementById('flagBall').classList.remove("flagAnimation");
     }, 1000);
     if (navigator.language === 'pt-BR' || navigator.language === 'pt'){
-        document.getElementById('flagBall').src = "/imgs/flagsSwitch/bandeira-PT.png";
+        document.getElementById('flagBall').src = "./imgs/flagsSwitch/bandeira-PT.png";
         clickSwitch = 0;
     } else {
         document.getElementById('ballSwitch').style.transform = 'translateX(32px)';
-        document.getElementById('flagBall').src = "/imgs/flagsSwitch/bandeira-EN.jpg";
+        document.getElementById('flagBall').src = "./imgs/flagsSwitch/bandeira-EN.jpg";
         clickSwitch = 1;
         changeLanguage('en');
     };
