@@ -1,5 +1,6 @@
 @media only screen and (max-width: 414px){ /* Mobile 1*/
-    /* Design frame: 375px */
+        /* Design frame: 375px */
+
         /* NAVBAR */
         header {
             background: #0b0b1b;
@@ -35,7 +36,6 @@
             width: 500px;
             height: 700px;
         }
-    
         .socialContainer {
             width: 100%;
             margin-top: 25px;
@@ -52,29 +52,25 @@
             padding: 20px;
             justify-content:flex-start;
         }
-
         .iniTextContainer h1 {
             font-size: 30px;
         }
 
         /* ABOUT PAGE */
         .aboutPage {
-            height: 90vh;
+            height: 100%;
         }
-    
         .aboutPage h1 {
             font-size: 30px;
+            margin: 15px 0;
         }
-
         .computer3D {
             display: none;
         }
-    
         .boxText {
             width: 300px;
             height: 600px;
         }
-    
         .boxText p {
             font-size: 15px;
         }
@@ -83,39 +79,33 @@
         .titleTechContainer {
             width: 95%;
         }
-
         .boxTechsTools {
             width: 100%;
-            height: 180vh;
+            height: 100%;
             align-items: center;
             justify-content: center;
             display: flex;
         }
-
         .techsPage {
             width: 100%;
-            height: 198vh;
-
+            height: 100%;
         }
-
-        
-
         .optionTech {
             width: 70px;
             font-size: 13px;
 
             margin: 0 6px;
         }
-
         .boxPopup {
             width: 375px;
         }
-
         .boxPopup::before {
-            width: 340px;
-            transform: translate(-8%,-4.2%);
+            display: none;
         }
-
+        .closePopup {
+            width: 31px;
+            height: 31px;
+        }
         .skillLevel h1 {
             font-size: 26px;
         }
@@ -131,20 +121,19 @@
         .courses li {
             font-size: 18px;
         }
+
         /*  PROJECTS PAGE */
         .projectsContainer {
             width: 100%;
         }
-
         .projectsPage {
-            height: 72vh;
+            height: 100%;
             overflow-x: hidden;
         }
-
         .projectsTitle {
             font-size: 30px;
+            margin: 15px 0;
         }
-
         .cardProject {
             animation: none;
             width: 80px;
@@ -169,7 +158,8 @@
     }
 
     @media only screen and (max-width: 600px) and (min-width: 415px){ /* Mobile 2 */
-     /* Design frame: 510px */
+        /* Design frame: 510px */
+
         /* NAVBAR */
         header {
             background: #0b0b1b;
@@ -205,7 +195,6 @@
             width: 500px;
             height: 700px;
         }
-    
         .socialContainer {
             width: 100%;
             margin-top: 25px;
@@ -222,60 +211,54 @@
             padding: 20px;
             justify-content:flex-start;
         }
-
         .iniTextContainer h1 {
             font-size: 30px;
         }
 
         /* ABOUT PAGE */
         .aboutPage {
-            height: 110vh;
+            height: 100%;
         }
-    
         .aboutPage h1 {
             font-size: 40px;
+            margin: 15px 0;
         }
-
         .computer3D {
             display: none;
         }
-    
         .boxText {
-            width: 400px;
+            width: 360px;
             height: 800px;
         }
-    
         .boxText p {
-            font-size: 20px;
+            font-size: 19px;
         }
 
         /* SKILLS PAGE */
         .titleTechContainer {
             width: 95%;
         }
-
         .boxTechsTools {
             width: 100%;
-            height: 125vh;
+            height: 100%;
             align-items: center;
             justify-content: center;
             display: flex;
         }
-
         .techsPage {
             width: 100%;
-            height: 160vh;
+            height: 100%;
         }
-
         .boxPopup {
             width: 375px;
         }
-
         .boxPopup::before {
-            width: 430px;
-            transform: translate(-6.4%,-4.2%);
+            display: none;
         }
-
+        .closePopup {
+            width: 32px;
+            height: 32px;
+        }
         .skillLevel h1 {
             font-size: 26px;
         }
@@ -291,16 +274,16 @@
         .courses li {
             font-size: 18px;
         }
+
         /*  PROJECTS PAGE */
         .projectsPage {
-            height: 70vh;
+            height: 100%;
+            overflow-x: hidden;
         }
-
-
         .projectsTitle {
             font-size: 30px;
+            margin: 15px 0;
         }
-
         .cardProject {
             animation: none;
             width: 80px;
@@ -325,7 +308,7 @@
     }
 
     @media only screen and (max-width: 1279px) and (min-width: 601px){ /* Tablet */
-    /* Design frame: 768px */
+        /* Design frame: 768px */
     
         /* NAVBAR */
         header {
@@ -363,7 +346,6 @@
             width: 500px;
             height: 700px;
         }
-    
         .socialContainer {
             width: 100%;
             margin-top: 25px;
@@ -372,31 +354,39 @@
     
         /* ABOUT PAGE */
         .aboutPage {
-            height: 77vh;
+            height: 100%;
         }
-    
+        .aboutPage h1 {
+            margin: 20px 0;
+        }
         .computer3D {
             display: none;
         }
-    
         .boxText {
             width: 500px;
             height: 600px;
         }
-    
         .boxText p {
             font-size: 20px;
         }
     
         /* SKILLS PAGE */
+
+        .projectsPage {
+            height: 100%;
+            overflow-x: hidden;
+        }
+        .projectsTitle {
+            margin: 20px 0;
+        }
         .titleTechContainer {
             width: 95%;
         }
-
         .boxTechsTools {
             width: 100%;
         }
 
+        /* PROJECTS PAGE */
         .cardProject {
             animation: none;
         }
@@ -404,31 +394,31 @@
     
     
     @media only screen and (max-width: 1366px) and (min-width: 1280px){ /* Small desktop */
-    /* Design frame: 1280px */
+        /* Design frame: 1280px */
     
-    /* ABOUT PAGE */
-    .aboutContainer {
-        justify-content: space-evenly;
-    }
-    .boxText {
-        width: 800px;
-        height: 500px;
-        padding: 28px;
-    }
-    .boxText p {
-        font-size: 20px;
-    }
-    .computer3D {
-        width: 20%;
-    }
-    
-    /* SKILLS PAGE */
-    .titleTechContainer {
-        width: 95%;
-    }
-    .optionsTechsContainer {
-        width: 95%;
-    }
-    
+        /* ABOUT PAGE */
+        .aboutContainer {
+            justify-content: space-evenly;
+        }
+        .boxText {
+            width: 800px;
+            height: 500px;
+            padding: 28px;
+        }
+        .boxText p {
+            font-size: 20px;
+        }
+        .computer3D {
+            width: 20%;
+        }
+        
+        /* SKILLS PAGE */
+        .titleTechContainer {
+            width: 95%;
+        }
+        .optionsTechsContainer {
+            width: 95%;
+        }
+        
     }
     

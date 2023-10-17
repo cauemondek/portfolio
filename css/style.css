@@ -6,21 +6,19 @@
     /* border: red 1px solid; */
 }
 
-main {
-    width: 100%;
-}
+
 
 
 
 html {
     scroll-behavior: smooth;
-    width: 100%;
+
 }
 :visited {
     color: none;
 }
 body {
-    width: 100%;
+
     overflow-x: hidden;
     background-color: #030217;
 }
