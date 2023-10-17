@@ -132,8 +132,13 @@
             font-size: 18px;
         }
         /*  PROJECTS PAGE */
+        .projectsContainer {
+            width: 100%;
+        }
+
         .projectsPage {
             height: 72vh;
+            overflow-x: hidden;
         }
 
         .projectsTitle {
