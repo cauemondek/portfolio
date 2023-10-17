@@ -7,21 +7,32 @@
 
     <script src="https://kit.fontawesome.com/dc49a974a4.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/initial.css">
     <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/techs.css">
     <link rel="stylesheet" href="./css/projects.css">
     <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Domine&family=Inder&family=Manrope:wght@200;500&family=Montserrat:wght@200&family=Noto+Sans+JP:wght@200;400;500&family=Nunito&family=Poppins:wght@200;300;500;700;800&family=Roboto:wght@100;400&family=Sen:wght@700&family=Source+Code+Pro&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Dev. Cauê();</h1>
+    <header id="navbarResponsive">
+        <div class="titleNavbarResponsive">
+            <h1>Dev. Cauê();</h1>
+                <div class="menuHamburguerResponsive">
+                    <input type="checkbox" id="bar_checkbox">
+                    <label for="bar_checkbox" class="label_bar">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                </div>
+        </div>
         <div class="optionsMenuContainer">
             <h2 class="optionsMenu translation" data-key="home">Início</h2>
             <h2 class="optionsMenu translation" data-key="about">Sobre</h2>
@@ -35,6 +46,7 @@
             <p>EN</p>
             <p>PT</p>
         </div>
+        
     </header>
     <main>
         <article class="initialPage">
@@ -101,9 +113,6 @@
         <article class="techsPage">
             <div class="techsContainer">
                 <div class="titleTechContainer">
-                    <!-- <div class="line">
-                        <hr style="opacity: 0.4; width: 95%; background-color: #312150; border: #312150 solid 1px;">
-                    </div> -->
                     <h1 class="translation" data-key="skillsMenu">Habilidades</h1>
                     <div class="line">
                         <hr style="opacity: 0.4; width: 95%; background-color: #312150; border: #312150 solid 1px;">
@@ -114,8 +123,6 @@
                     <p class="optionTech translation" data-key="tools">Ferramentas</p>
                 </div>
                 <div class="boxTechsTools" id="techsMenu">
-                    <!-- <div class="line">
-                    </div> -->
                     <div class="tech skill">
                         <div class="containerSkill techContainer">
                             <img class="skillLogo" src="./imgs/skills/techs/javascript.png" alt="">
@@ -265,7 +272,7 @@
         </article>
         
         <article class="projectsPage">
-            <h1 class="translation" data-key="projectTitle">Projetos</h1>
+            <h1 class="translation projectsTitle" data-key="projectTitle">Projetos</h1>
             <!-- <img class="backgroundProjects" src="./imgs/projects/buyList.PNG" alt=""> -->
             <div class="projectsContainer">
                 <div class="carrousel">

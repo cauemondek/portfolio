@@ -1,0 +1,427 @@
+@media only screen and (max-width: 414px){ /* Mobile 1*/
+    /* Design frame: 375px */
+        /* NAVBAR */
+        header {
+            background: #0b0b1b;
+            backdrop-filter: none;
+            -webkit-backdrop-filter: none;
+        }
+        header h1 {
+            font-size: 34px;
+        }
+        .menuHamburguerResponsive {
+            display: flex;
+        }
+        .optionsMenuContainer {
+            flex-direction: column;
+            height: 300px;
+        }
+        .optionsMenuContainer, .switch {
+            display: none;
+        }
+        .titleNavbarResponsive {
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+    
+            padding: 16px;
+        }
+
+        /* INITIAL PAGE */
+        .initialContainer {
+            flex-direction: column-reverse;
+    
+            width: 500px;
+            height: 700px;
+        }
+    
+        .socialContainer {
+            width: 100%;
+            margin-top: 25px;
+            padding: 0;
+        }
+        .initialPage {
+            height: 900px;
+        }
+        .figures {
+            height: 900px;
+        }
+        .iniTextContainer {
+            width: 355px;
+            padding: 20px;
+            justify-content:flex-start;
+        }
+
+        .iniTextContainer h1 {
+            font-size: 30px;
+        }
+
+        /* ABOUT PAGE */
+        .aboutPage {
+            height: 90vh;
+        }
+    
+        .aboutPage h1 {
+            font-size: 30px;
+        }
+
+        .computer3D {
+            display: none;
+        }
+    
+        .boxText {
+            width: 300px;
+            height: 600px;
+        }
+    
+        .boxText p {
+            font-size: 15px;
+        }
+
+        /* SKILLS PAGE */
+        .titleTechContainer {
+            width: 95%;
+        }
+
+        .boxTechsTools {
+            width: 100%;
+
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+
+        .techsPage {
+            width: 100%;
+            height: 160vh;
+
+        }
+
+        .optionTech {
+            width: 70px;
+            font-size: 13px;
+
+            margin: 0 6px;
+        }
+
+        .boxPopup {
+            width: 375px;
+        }
+
+        .boxPopup::before {
+            width: 340px;
+            transform: translate(-8%,-4.2%);
+        }
+
+        .skillLevel h1 {
+            font-size: 26px;
+        }
+        .skillLevel h2 {
+            font-size: 20px;
+        }
+        .coursesContainer h1 {
+            font-size: 22px;
+        }
+        .courses {
+            height: 380px;
+        }
+        .courses li {
+            font-size: 18px;
+        }
+        /*  PROJECTS PAGE */
+        .projectsPage {
+            height: 72vh;
+        }
+
+        .projectsTitle {
+            font-size: 30px;
+        }
+
+        .cardProject {
+            animation: none;
+            width: 80px;
+        }
+        .cardProject h1 {
+            font-size: 8px;
+        }
+        .cardProject p {
+            font-size: 5.5px;
+        }
+
+        /* FOOTER */
+        footer {
+            margin-top: 10%;
+        }
+        footer p {
+            font-size: 12px;
+        }
+        footer span {
+            font-size: 12px;
+        }
+    }
+
+    @media only screen and (max-width: 600px) and (min-width: 415px){ /* Mobile 2 */
+     /* Design frame: 510px */
+        /* NAVBAR */
+        header {
+            background: #0b0b1b;
+            backdrop-filter: none;
+            -webkit-backdrop-filter: none;
+        }
+        header h1 {
+            font-size: 34px;
+        }
+        .menuHamburguerResponsive {
+            display: flex;
+        }
+        .optionsMenuContainer {
+            flex-direction: column;
+            height: 300px;
+        }
+        .optionsMenuContainer, .switch {
+            display: none;
+        }
+        .titleNavbarResponsive {
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+    
+            padding: 16px;
+        }
+
+        /* INITIAL PAGE */
+        .initialContainer {
+            flex-direction: column-reverse;
+    
+            width: 500px;
+            height: 700px;
+        }
+    
+        .socialContainer {
+            width: 100%;
+            margin-top: 25px;
+            padding: 0;
+        }
+        .initialPage {
+            height: 900px;
+        }
+        .figures {
+            height: 900px;
+        }
+        .iniTextContainer {
+            width: 355px;
+            padding: 20px;
+            justify-content:flex-start;
+        }
+
+        .iniTextContainer h1 {
+            font-size: 30px;
+        }
+
+        /* ABOUT PAGE */
+        .aboutPage {
+            height: 110vh;
+        }
+    
+        .aboutPage h1 {
+            font-size: 40px;
+        }
+
+        .computer3D {
+            display: none;
+        }
+    
+        .boxText {
+            width: 400px;
+            height: 800px;
+        }
+    
+        .boxText p {
+            font-size: 20px;
+        }
+
+        /* SKILLS PAGE */
+        .titleTechContainer {
+            width: 95%;
+        }
+
+        .boxTechsTools {
+            width: 100%;
+
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+
+        .techsPage {
+            width: 100%;
+            height: 90vh;
+
+        }
+
+        .boxPopup {
+            width: 375px;
+        }
+
+        .boxPopup::before {
+            width: 430px;
+            transform: translate(-6.4%,-4.2%);
+        }
+
+        .skillLevel h1 {
+            font-size: 26px;
+        }
+        .skillLevel h2 {
+            font-size: 20px;
+        }
+        .coursesContainer h1 {
+            font-size: 22px;
+        }
+        .courses {
+            height: 380px;
+        }
+        .courses li {
+            font-size: 18px;
+        }
+        /*  PROJECTS PAGE */
+        .projectsPage {
+            height: 68vh;
+        }
+
+        .projectsTitle {
+            font-size: 30px;
+        }
+
+        .cardProject {
+            animation: none;
+            width: 80px;
+        }
+        .cardProject h1 {
+            font-size: 8px;
+        }
+        .cardProject p {
+            font-size: 5.5px;
+        }
+
+        /* FOOTER */
+        footer {
+            margin-top: 10%;
+        }
+        footer p {
+            font-size: 12px;
+        }
+        footer span {
+            font-size: 12px;
+        }
+    }
+
+    @media only screen and (max-width: 1279px) and (min-width: 601px){ /* Tablet */
+    /* Design frame: 768px */
+    
+        /* NAVBAR */
+        header {
+            background: #0b0b1b;
+            backdrop-filter: none;
+            -webkit-backdrop-filter: none;
+        }
+        header h1 {
+            font-size: 40px;
+        }
+        .menuHamburguerResponsive {
+            display: flex;
+        }
+        .optionsMenuContainer {
+            flex-direction: column;
+            height: 300px;
+        }
+        .optionsMenuContainer, .switch {
+            display: none;
+        }
+        .titleNavbarResponsive {
+            width: 80%;
+    
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+    
+            padding: 13px;
+        }
+    
+        /* INITIAL PAGE */
+        .initialContainer {
+            flex-direction: column-reverse;
+    
+            width: 500px;
+            height: 700px;
+        }
+    
+        .socialContainer {
+            width: 100%;
+            margin-top: 25px;
+            padding: 0;
+        }
+    
+        /* ABOUT PAGE */
+        .aboutPage {
+            height: 77vh;
+        }
+    
+        .computer3D {
+            display: none;
+        }
+    
+        .boxText {
+            width: 500px;
+            height: 600px;
+        }
+    
+        .boxText p {
+            font-size: 20px;
+        }
+    
+        /* SKILLS PAGE */
+        .titleTechContainer {
+            width: 95%;
+        }
+
+        .boxTechsTools {
+            width: 100%;
+        }
+
+        .cardProject {
+            animation: none;
+        }
+    }
+    
+    
+    @media only screen and (max-width: 1366px) and (min-width: 1280px){ /* Small desktop */
+    /* Design frame: 1280px */
+    
+    /* ABOUT PAGE */
+    .aboutContainer {
+        justify-content: space-evenly;
+    }
+    .boxText {
+        width: 800px;
+        height: 500px;
+        padding: 28px;
+    }
+    .boxText p {
+        font-size: 20px;
+    }
+    .computer3D {
+        width: 20%;
+    }
+    
+    /* SKILLS PAGE */
+    .titleTechContainer {
+        width: 95%;
+    }
+    .optionsTechsContainer {
+        width: 95%;
+    }
+    
+    }
+    

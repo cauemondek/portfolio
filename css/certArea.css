@@ -9,6 +9,10 @@
     overflow: hidden;
 }
 
+.optionsMenuContainer {
+    width: 200px;
+}
+
 .certificateContainer {
     width: 800px;
     height: 650px;

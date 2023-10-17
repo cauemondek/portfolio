@@ -301,31 +301,6 @@
     font-weight: bold;
 }
 
-/* barrier level */
-/* .levelContainer {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-
-.level {
-    width: 60px;
-    height: 8px;
-    background-color: #fff;
-    border-radius: 3px;
-    opacity: 0.2;
-}
-
-.level:nth-child(1){
-    background-color: #00FF00;
-}
-.level:nth-child(2){
-    background-color: #FFFF00;
-}
-.level:nth-child(3){
-    background-color: #FF0000;
-} */
-
 .coursesContainer {
     width: 100%;
 }

@@ -57,6 +57,7 @@ header h2:hover {
     display: flex;
 
     justify-content: space-around;
+    align-items: center;
 }
 
 .switch {
@@ -100,4 +101,44 @@ header h2:hover {
      100% {
         opacity: 1;
     }
+}
+
+/* NAVBAR RESPONSIVE */
+
+.menuHamburguerResponsive {
+    display: none;
+}
+
+.label_bar {
+    cursor: pointer;
+    height: 30px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.label_bar span {
+    width: 100%;
+    height: 4px;
+    border-radius: 6px;
+    background-color: #fff;
+    transition: 0.4s;
+}
+
+#bar_checkbox:checked ~ .label_bar span:nth-child(1){
+    transform: translateY(12px) rotate(45deg);
+    background-color: #7d52d3;
+}
+#bar_checkbox:checked ~ .label_bar span:nth-child(2){
+    opacity: 0;
+    background-color: #7d52d3;
+}
+#bar_checkbox:checked ~ .label_bar span:nth-child(3){
+    transform: translateY(-12px) rotate(-45deg);
+    background-color: #7d52d3;
+}
+
+#bar_checkbox {
+    display: none;
 }
