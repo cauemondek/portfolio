@@ -86,7 +86,7 @@
 
         .boxTechsTools {
             width: 100%;
-
+            height: 180vh;
             align-items: center;
             justify-content: center;
             display: flex;
@@ -94,9 +94,11 @@
 
         .techsPage {
             width: 100%;
-            height: 160vh;
+            height: 198vh;
 
         }
+
+        
 
         .optionTech {
             width: 70px;
@@ -249,7 +251,7 @@
 
         .boxTechsTools {
             width: 100%;
-
+            height: 125vh;
             align-items: center;
             justify-content: center;
             display: flex;
@@ -257,8 +259,7 @@
 
         .techsPage {
             width: 100%;
-            height: 90vh;
-
+            height: 160vh;
         }
 
         .boxPopup {
@@ -287,8 +288,9 @@
         }
         /*  PROJECTS PAGE */
         .projectsPage {
-            height: 68vh;
+            height: 70vh;
         }
+
 
         .projectsTitle {
             font-size: 30px;
