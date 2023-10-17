@@ -1,4 +1,4 @@
-![STATUS-DEVELOPING-](https://github.com/cauemondek/portfolio/assets/121320616/5888019c-3e51-446b-871b-0dbc172ea9df)
+![STATUS-FINISHED](https://github.com/cauemondek/movie-website/assets/121320616/26322afa-075d-41b7-b9f1-fec1a11a3e0c)
 <br>
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 
@@ -14,7 +14,7 @@
 - ``CSS``
 - ``Javascript``
 
-# ✔ Project features
+## ✔ Project features
 
 `✨ Feature 1`: Switch Language
 ![switchPreview](https://github.com/cauemondek/portfolio/assets/121320616/f2755163-bc6e-4224-a7c2-a39ce83cae03 )
@@ -27,3 +27,8 @@
 
 `✨ Feature 3`: Carrousel of Projects
 ![carrouselPreview](https://github.com/cauemondek/portfolio/assets/121320616/3d3a1f08-6645-4eca-8518-b96705e67907)
+
+`✨ Feature 4`: Fully Responsive
+<br>
+<img src="https://github.com/cauemondek/portfolio/assets/121320616/8e94719f-36c7-45a5-89e2-2b81b496c71f" style="width: 65%"><img>
+<img src="https://github.com/cauemondek/portfolio/assets/121320616/de337c39-9a28-4b52-b80a-325a877669b5" style="width: 30%"><img>
