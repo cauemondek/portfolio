@@ -90,7 +90,7 @@ function pullTechData(numberTech){
 const techs = ["Javascript", "HTML", "CSS", "Java", "C++", "Node.js", "Dados"];
 const techsLogo = ["javascript.png", "html.png", "css.png", "java.png", "c++.png", "nodejs.png", "bancoDados.png"];
 
-const techsLevelPT = ["Avançado", "Avançado", "Avançado", "Intermediário", "Básico", "Básico", "Intermediário"];
-const techsLevelEN = ["Advanced", "Advanced", "Advanced", "Intermediate", "Beginner", "Beginner", "Intermediate"];
+const techsLevelPT = ["Avançado", "Avançado", "Avançado", "Intermediário", "Básico", "Intermediário", "Intermediário"];
+const techsLevelEN = ["Advanced", "Advanced", "Advanced", "Intermediate", "Beginner", "Intermediate", "Intermediate"];
 const techsLevelLanguage = [techsLevelPT, techsLevelEN];
 
