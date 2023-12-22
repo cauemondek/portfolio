@@ -323,7 +323,7 @@
     width: 100%;
     height: 289px;
 
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .containerCertificate {
