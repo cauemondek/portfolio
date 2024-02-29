@@ -25,7 +25,8 @@ let coursesNodeJS = ["(Nenhum - None)"];
 let coursesDados = ["Linguagem de Programação Java - AVANÇADO (SQL) [Fundação Bradesco]", "Modelagem de Dados [Fundação Bradesco]", "Implementando Banco de Dados [Fundação Bradesco]"];
 let coursesCPP = ["Escrever seu primeiro programa em C++ [Microsoft]"];
 let coursesJQuery = ["(Nenhum - None)"];
-const courses = [coursesJS, coursesHTML, coursesCSS, coursesJava, coursesPHP, coursesNodeJS, coursesDados, coursesCPP, coursesJQuery];
+let coursesPython = ["(Nenhum - None)"];
+const courses = [coursesJS, coursesHTML, coursesCSS, coursesJava, coursesPHP, coursesNodeJS, coursesDados, coursesCPP, coursesJQuery, coursesPython];
 const coursesPage = document.querySelector('.courses');
 document.querySelectorAll('.tech').forEach((index, number) => {
     index.addEventListener('click',() => {
@@ -57,6 +58,9 @@ document.querySelectorAll('.tech').forEach((index, number) => {
                 pullTechData(number);
                 break;
             case 8:
+                pullTechData(number);
+                break;
+            case 9:
                 pullTechData(number);
                 break;
             default:
@@ -95,10 +99,10 @@ function pullTechData(numberTech){
     document.getElementById('levelType').innerHTML = techLanguageSwitch[numberTech];
 };
 
-const techs = ["Javascript", "HTML", "CSS", "Java", "PHP", "Node.js", "Dados", "C++", "JQuery"];
-const techsLogo = ["javascript.png", "html.png", "css.png", "java.png", "oldphp.png", "nodejs.png", "bancoDados.png", "c++.png", "jquery.png"];
+const techs = ["Javascript", "HTML", "CSS", "Java", "PHP", "Node.js", "Dados", "C++", "JQuery", "Python"];
+const techsLogo = ["javascript.png", "html.png", "css.png", "java.png", "oldphp.png", "nodejs.png", "bancoDados.png", "c++.png", "jquery.png", "python.png"];
 
-const techsLevelPT = ["Avançado", "Avançado", "Avançado", "Intermediário", "Intermediário", "Intermediário", "Intermediário", "Básico", "Intermediário"];
-const techsLevelEN = ["Advanced", "Advanced", "Advanced", "Intermediate", "Intermediate", "Intermediate", "Intermediate", "Beginner", "Intermediate"];
+const techsLevelPT = ["Avançado", "Avançado", "Avançado", "Intermediário", "Intermediário", "Intermediário", "Intermediário", "Básico", "Intermediário", "Intermediário"];
+const techsLevelEN = ["Advanced", "Advanced", "Advanced", "Intermediate", "Intermediate", "Intermediate", "Intermediate", "Beginner", "Intermediate", "Intermediate"];
 const techsLevelLanguage = [techsLevelPT, techsLevelEN];
 
