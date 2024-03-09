@@ -21,12 +21,12 @@ cardsProject.forEach((index, number) => {
                     leftCard = number;
                     rightCard = number;
                     switch (number) {
-                        case 8:
-                            leftCard = 7;
+                        case 9: // For add more projects: +1
+                            leftCard = 8; // For add more projects: +1
                             rightCard = 0;
                             break;
                         case 0:
-                            leftCard = 8;
+                            leftCard = 9; // For add more projects: +1
                             rightCard = 1;
                             break;
                         default:
@@ -53,12 +53,12 @@ cardsProject.forEach((index, number) => {
                 leftCard = number;
                 rightCard = number;
                 switch (number) {
-                    case 8:
-                        leftCard = 7;
+                    case 9: // For add more projects: +1
+                        leftCard = 8; // For add more projects: +1
                         rightCard = 0;
                         break;
                     case 0:
-                        leftCard = 8;
+                        leftCard = 9; // For add more projects: +1
                         rightCard = 1;
                         break;
                     default:
@@ -82,18 +82,19 @@ cardsProject.forEach((index, number) => {
             
             for (let elements = 0; elements < cardsProject.length; elements++){
                 cardsProject[elements].style.transform = 'rotateY(0) translateZ(0) rotateY(0)';
-                cardsProject[elements].style.animation = 'carrouselRotate 18s infinite linear';
+                cardsProject[elements].style.animation = 'carrouselRotate 20s infinite linear'; // For add more projects: change the seconds +2s
                 cardsProject[elements].style.opacity = '0.6';
     
-                cardsProject[0].style.animationDelay = '-16s';
-                cardsProject[1].style.animationDelay = '-14s';
-                cardsProject[2].style.animationDelay = '-12s';
-                cardsProject[3].style.animationDelay = '-10s';
-                cardsProject[4].style.animationDelay = '-8s';
-                cardsProject[5].style.animationDelay = '-6s';
-                cardsProject[6].style.animationDelay = '-4s';
-                cardsProject[7].style.animationDelay = '-2s';
-                cardsProject[8].style.animationDelay = '0s';
+                cardsProject[0].style.animationDelay = '-18s';
+                cardsProject[1].style.animationDelay = '-16s';
+                cardsProject[2].style.animationDelay = '-14s';
+                cardsProject[3].style.animationDelay = '-12s';
+                cardsProject[4].style.animationDelay = '-10s';
+                cardsProject[5].style.animationDelay = '-8s';
+                cardsProject[6].style.animationDelay = '-6s';
+                cardsProject[7].style.animationDelay = '-4s';
+                cardsProject[8].style.animationDelay = '-2s';
+                cardsProject[9].style.animationDelay = '0s';
             };
     
             index.style.zIndex = 'auto';

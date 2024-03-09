@@ -35,6 +35,7 @@
             "projectGuess": "Jogo com o objetivo de acertar o número sorteado, baseado em menor ou maior.",
             "projectChatbot": "Chatbot personalizado, com interface e banco de dados.",
             "projectBank": "Site e sistema de banco com login, transferências, banco de dados e mais.",
+            "projectLivechat": "Aplicação web de conversa em tempo real, com noticações, conversa pública e privada.",
             "copyright": "© Cauê Guise Mondek - Todos os direitos reservados,"
     },
     "en": {
@@ -73,6 +74,7 @@
             "projectGuess": "Game that chooses a random number and you have to guess based on whether it's less or more.",
             "projectChatbot": "Customized chatbot, with interface and database.",
             "projectBank": "Banking website and system with login, transfers, database and more.",
+            "projectLivechat": "Real-time chat web application, with notifications, public and private chat.",
             "copyright": "© Cauê Guise Mondek - All rights reserved,"
     }
 }
