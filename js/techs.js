@@ -16,17 +16,18 @@ optionTech.forEach((index, number) => {
 });
 
 const popUp = document.querySelector('.containerPopup');
-let coursesJS = ["HTML5, CSS3 e Javascript na prática (3 Projetos) [Udemy]", "HTML, CSS and JavaScript for Intermediate - Movie Website [Udemy]", "Pensamento Computacional [UniFil]", "Crie um site simples usando HTML, CSS e JavaScript [Fundação Bradesco]", "Fundamentos de Lógica de Programação [Fundação Bradesco]", "Introdução ao JavaScript [Fundação Bradesco]"];
-let coursesHTML = [ "HTML5, CSS3 e Javascript na prática (3 Projetos) [Udemy]", "HTML, CSS and JavaScript for Intermediate - Movie Website [Udemy]", "HTML5: Primeiros passos na carreira de Desenvolvedor [Udemy]", "Crie um site simples usando HTML, CSS e JavaScript [Udemy]", "HTML - Básico [Fundação Bradesco]", "HTML - Avançado [Fundação Bradesco]", "HTML e CSS na Prática [Fundação Bradesco]"];
-let coursesCSS = [ "HTML5, CSS3 e Javascript na prática (3 Projetos) [Udemy]", "HTML, CSS and JavaScript for Intermediate - Movie Website [Udemy]", "CSS3 na prática [Udemy]", "Crie um site simples usando HTML, CSS e JavaScript [Fundação Bradesco]", "Inovando com CSS [Fundação Bradesco]", "HTML e CSS na Prática [Fundação Bradesco]"];
-let coursesJava = ["Introdução ao Java e Orientação a objetos [Udemy]", "Programação Java para Iniciantes [Udemy]", "Java SE - F1 [Udemy]", "Linguagem de Programação Java - BÁSICO [Fundação Bradesco]", "Linguagem de Programação Java - AVANÇADO [Fundação Bradesco]", "Introdução a Programação Orientada a Objetos (POO) [Fundação Bradesco]", "Fundamentos de Lógica de Programação [Fundação Bradesco]", "Create a Supermarket app using OOP Features in Java [Coursera]"];
+let coursesJS = ["Pensamento Computacional [UniFil]", "Crie um site simples usando HTML, CSS e JavaScript [Fundação Bradesco]", "Fundamentos de Lógica de Programação [Fundação Bradesco]", "Introdução ao JavaScript [Fundação Bradesco]"];
+let coursesHTML = ["HTML - Básico [Fundação Bradesco]", "HTML - Avançado [Fundação Bradesco]", "HTML e CSS na Prática [Fundação Bradesco]"];
+let coursesCSS = ["Crie um site simples usando HTML, CSS e JavaScript [Fundação Bradesco]", "Inovando com CSS [Fundação Bradesco]", "HTML e CSS na Prática [Fundação Bradesco]"];
+let coursesJava = ["Linguagem de Programação Java - BÁSICO [Fundação Bradesco]", "Linguagem de Programação Java - AVANÇADO [Fundação Bradesco]", "Introdução a Programação Orientada a Objetos (POO) [Fundação Bradesco]", "Fundamentos de Lógica de Programação [Fundação Bradesco]", "Create a Supermarket app using OOP Features in Java [Coursera]"];
 let coursesPHP = ["(Nenhum - None)"];
 let coursesNodeJS = ["(Nenhum - None)"];
 let coursesDados = ["Linguagem de Programação Java - AVANÇADO (SQL) [Fundação Bradesco]", "Modelagem de Dados [Fundação Bradesco]", "Implementando Banco de Dados [Fundação Bradesco]"];
-let coursesCPP = ["Escrever seu primeiro programa em C++ [Microsoft]"];
+let coursesCPP = ["(Nenhum - None)"];
 let coursesJQuery = ["(Nenhum - None)"];
-let coursesPython = ["(Nenhum - None)"];
-const courses = [coursesJS, coursesHTML, coursesCSS, coursesJava, coursesPHP, coursesNodeJS, coursesDados, coursesCPP, coursesJQuery, coursesPython];
+let coursesPython = ["Imersão Python [Alura]"];
+let coursesDotNet = ["(Nenhum - None)"];
+const courses = [coursesJS, coursesHTML, coursesCSS, coursesJava, coursesPHP, coursesNodeJS, coursesDados, coursesCPP, coursesJQuery, coursesPython, coursesDotNet];
 const coursesPage = document.querySelector('.courses');
 document.querySelectorAll('.tech').forEach((index, number) => {
     index.addEventListener('click',() => {
@@ -61,6 +62,9 @@ document.querySelectorAll('.tech').forEach((index, number) => {
                 pullTechData(number);
                 break;
             case 9:
+                pullTechData(number);
+                break;
+            case 10:
                 pullTechData(number);
                 break;
             default:
@@ -99,10 +103,10 @@ function pullTechData(numberTech){
     document.getElementById('levelType').innerHTML = techLanguageSwitch[numberTech];
 };
 
-const techs = ["Javascript", "HTML", "CSS", "Java", "PHP", "Node.js", "Dados", "C++", "JQuery", "Python"];
-const techsLogo = ["javascript.png", "html.png", "css.png", "java.png", "oldphp.png", "nodejs.png", "bancoDados.png", "c++.png", "jquery.png", "python.png"];
+const techs = ["Javascript", "HTML", "CSS", "Java", "PHP", "Node.js", "Dados", "C#", "JQuery", "Python", ".NET"];
+const techsLogo = ["javascript.png", "html.png", "css.png", "java.png", "oldphp.png", "nodejs.png", "bancoDados.png", "csharp.png", "jquery.png", "python.png", "dotnet.png"];
 
-const techsLevelPT = ["Avançado", "Avançado", "Avançado", "Intermediário", "Intermediário", "Intermediário", "Intermediário", "Básico", "Intermediário", "Intermediário"];
-const techsLevelEN = ["Advanced", "Advanced", "Advanced", "Intermediate", "Intermediate", "Intermediate", "Intermediate", "Beginner", "Intermediate", "Intermediate"];
+const techsLevelPT = ["Avançado", "Avançado", "Avançado", "Intermediário", "Básico", "Intermediário", "Avançado", "Intermediário", "Intermediário", "Básico", "Intermediário"];
+const techsLevelEN = ["Advanced", "Advanced", "Advanced", "Intermediate", "Beginner", "Intermediate", "Advanced", "Intermediate", "Intermediate", "Beginner", "Intermediate"];
 const techsLevelLanguage = [techsLevelPT, techsLevelEN];
 
