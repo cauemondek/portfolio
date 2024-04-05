@@ -1,7 +1,8 @@
 const webDev = ["W","e","b"," ","D","e","v","e","l","o","p","e","r"];
 const backDev = ["B","a","c","k","-","e","n","d"," ","D","e","v","e","l","o","p","e","r"];
 const fullDev = ["F","u","l","l","-","s","t","a","c","k"," ","D","e","v","e","l","o","p","e","r"];
-const words = [webDev, backDev, fullDev];
+const devOps = ["D","e","v","O","p","s"];
+const words = [webDev, backDev, fullDev, devOps];
 
 const typing = document.getElementById('type');
 
@@ -17,17 +18,17 @@ addEventListener("DOMContentLoaded",()=>{
             countWords++;
         } else {
             countWords = 0;
-            wordTurn = (wordTurn + 1) % 3;
+            wordTurn = (wordTurn + 1) % 4;
         };
 
         if (countWords === (words[wordTurn].length + 5)){
             document.querySelector('.typeContainer').style.width = 'max-content';
             typing.classList.add('erase');
              setTimeout(() => {
+                 typing.innerHTML = ""; 
                  typing.classList.remove('erase');
                   document.querySelector('.typeContainer').style.width = 'auto';
-                  typing.innerHTML = ""; 
-               }, 1000);
+               }, 980);
           };
     }, 200);
 });
