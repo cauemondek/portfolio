@@ -2,7 +2,7 @@ const webDev = ["W","e","b"," ","D","e","v","e","l","o","p","e","r"];
 const backDev = ["B","a","c","k","-","e","n","d"," ","D","e","v","e","l","o","p","e","r"];
 const fullDev = ["F","u","l","l","-","s","t","a","c","k"," ","D","e","v","e","l","o","p","e","r"];
 const devOps = ["D","e","v","O","p","s"];
-const words = [webDev, backDev, fullDev, devOps];
+const words = [fullDev, backDev, webDev, devOps];
 
 const typing = document.getElementById('type');
 
