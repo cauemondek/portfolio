@@ -14,27 +14,22 @@ addEventListener('DOMContentLoaded', () => {
     };
 });
 
-function changeLanguage(language){
+function changeLanguage(language) {
     const dataTranslations = './js/translations.json';
-    // Cria um novo objeto XMLHttpRequest
-    const xhr = new XMLHttpRequest();
-    // Define o método de requisição
-    xhr.open('GET', dataTranslations, true);
-    // Envia a requisição
-    xhr.send();
-    // Quando a resposta for recebida
-    xhr.onload = function() {
-      // Lê o conteúdo da resposta  
-        const data = xhr.responseText;
-        // Converte o conteúdo da resposta em um objeto JavaScript
-        const constantsTranslation = JSON.parse(data);
-        
-        const elementsTranslation = document.querySelectorAll('.translation');
-        
-        elementsTranslation.forEach((index) => {
-            const key = index.getAttribute('data-key');
-            // Acessa as constantes do arquivo .json
-            index.textContent = constantsTranslation[language][key];
+
+    fetch(dataTranslations)
+        .then(response => response.text())
+        .then(data => {
+            const constantsTranslation = JSON.parse(data);
+
+            const elementsTranslation = document.querySelectorAll('.translation');
+
+            elementsTranslation.forEach((element) => {
+                const key = element.getAttribute('data-key');
+                element.textContent = constantsTranslation[language][key];
+            });
+        })
+        .catch(error => {
+            console.error(`Error fetching translations: ${error}`);
         });
-    };
-};
+}
