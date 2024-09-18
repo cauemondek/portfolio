@@ -20,14 +20,13 @@ let coursesJS = ["Pensamento Computacional [UniFil]", "Crie um site simples usan
 let coursesHTML = ["HTML - Básico [Fundação Bradesco]", "HTML - Avançado [Fundação Bradesco]", "HTML e CSS na Prática [Fundação Bradesco]"];
 let coursesCSS = ["Crie um site simples usando HTML, CSS e JavaScript [Fundação Bradesco]", "Inovando com CSS [Fundação Bradesco]", "HTML e CSS na Prática [Fundação Bradesco]"];
 let coursesJava = ["Linguagem de Programação Java - BÁSICO [Fundação Bradesco]", "Linguagem de Programação Java - AVANÇADO [Fundação Bradesco]", "Introdução a Programação Orientada a Objetos (POO) [Fundação Bradesco]", "Fundamentos de Lógica de Programação [Fundação Bradesco]", "Create a Supermarket app using OOP Features in Java [Coursera]"];
-let coursesPHP = ["(Nenhum - None)"];
+let coursesTS = ["(Nenhum - None)"];
 let coursesNodeJS = ["(Nenhum - None)"];
 let coursesDados = ["Linguagem de Programação Java - AVANÇADO (SQL) [Fundação Bradesco]", "Modelagem de Dados [Fundação Bradesco]", "Implementando Banco de Dados [Fundação Bradesco]"];
 let coursesCPP = ["(Nenhum - None)"];
 let coursesJQuery = ["(Nenhum - None)"];
-let coursesPython = ["Imersão Python: Do Excel à Análise de Dados [Alura]"];
 let coursesDotNet = ["(Nenhum - None)"];
-const courses = [coursesJS, coursesHTML, coursesCSS, coursesJava, coursesPHP, coursesNodeJS, coursesDados, coursesCPP, coursesJQuery, coursesPython, coursesDotNet];
+const courses = [coursesJS, coursesHTML, coursesCSS, coursesJava, coursesTS, coursesNodeJS, coursesDados, coursesCPP, coursesJQuery, coursesDotNet];
 const coursesPage = document.querySelector('.courses');
 document.querySelectorAll('.tech').forEach((index, number) => {
     index.addEventListener('click',() => {
@@ -62,9 +61,6 @@ document.querySelectorAll('.tech').forEach((index, number) => {
                 pullTechData(number);
                 break;
             case 9:
-                pullTechData(number);
-                break;
-            case 10:
                 pullTechData(number);
                 break;
             default:
@@ -103,10 +99,10 @@ function pullTechData(numberTech){
     document.getElementById('levelType').innerHTML = techLanguageSwitch[numberTech];
 };
 
-const techs = ["Javascript", "HTML", "CSS", "Java", "PHP", "Node.js", "Dados", "C#", "JQuery", "Python", ".NET"];
-const techsLogo = ["javascript.png", "html.png", "css.png", "java.png", "oldphp.png", "nodejs.png", "bancoDados.png", "csharp.png", "jquery.png", "python.png", "dotnet.png"];
+const techs = ["Javascript", "HTML", "CSS", "Java", "Typescript", "Node.js", "Dados", "C#", "JQuery", ".NET"];
+const techsLogo = ["javascript.png", "html.png", "css.png", "java.png", "typescript.png", "nodejs.png", "bancoDados.png", "csharp.png", "jquery.png", "dotnet.png"];
 
-const techsLevelPT = ["Avançado", "Avançado", "Avançado", "Intermediário", "Básico", "Intermediário", "Avançado", "Intermediário", "Intermediário", "Básico", "Intermediário"];
-const techsLevelEN = ["Advanced", "Advanced", "Advanced", "Intermediate", "Beginner", "Intermediate", "Advanced", "Intermediate", "Intermediate", "Beginner", "Intermediate"];
+const techsLevelPT = ["Avançado", "Avançado", "Avançado", "Intermediário", "Avançado", "Intermediário", "Avançado", "Intermediário", "Intermediário", "Intermediário"];
+const techsLevelEN = ["Advanced", "Advanced", "Advanced", "Intermediate", "Advanced", "Intermediate", "Advanced", "Intermediate", "Intermediate", "Intermediate"];
 const techsLevelLanguage = [techsLevelPT, techsLevelEN];
 
